@@ -1,0 +1,41 @@
+@import './variable.less';
+
+div.pro-content {
+
+  aside.pro-sidebar {
+    position: absolute;
+    top: @header-height;
+    bottom: 0;
+    width: @sidebar-width;
+    border-right: 1px solid @border-color-base;
+    background-color: @sidebar-bg-color;
+
+    .ivu-menu-light {
+      margin-right: -1px;
+      background-color: @sidebar-bg-color;
+    }
+  } // aside.pro-sidebar
+
+  article.pro-article {
+    margin-left: @sidebar-width;
+    padding: 10px;
+  }
+
+}
+
+.ivu-card-head {
+  font-size: 1.2em;
+}
+
+.ivu-table-filter-list-item label {
+    display: block;
+    margin-bottom: 0px;
+}
+.ivu-table .hide {
+    display:none;
+}
+
+.ivu-table .ivu-table-header th {
+    background: @primary-color;
+    color: @btn-primary-color;
+}
