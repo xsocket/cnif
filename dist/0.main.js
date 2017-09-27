@@ -57,6 +57,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data() {
@@ -188,7 +189,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "sm": 24,
       "md": 12
     }
-  }, [_c('Table', {
+  }, [_c('h3', [_vm._v("不同产区酿造用水的氧同位素")]), _vm._v(" "), _c('Table', {
     attrs: {
       "border": "",
       "stripe": "",
@@ -197,14 +198,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "columns": _vm.columns1,
       "data": _vm.data1
     }
-  }, [_c('h2', {
-    slot: "header"
-  }, [_vm._v("TODO:表格标题")])])], 1), _vm._v(" "), _c('Col', {
+  })], 1), _vm._v(" "), _c('Col', {
     attrs: {
       "sm": 24,
       "md": 12
     }
-  }, [_c('Table', {
+  }, [_c('h3', [_vm._v("不同葡萄酒中水的氧同位素")]), _vm._v(" "), _c('Table', {
     attrs: {
       "border": "",
       "stripe": "",

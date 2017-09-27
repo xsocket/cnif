@@ -6,11 +6,12 @@
             </div>
             <Row :gutter="16">
                 <Col :sm="24" :md="12">
+                    <h3>不同产区酿造用水的氧同位素</h3>
                     <Table border stripe highlight-row size="small"
-                        :columns="columns1" :data="data1">
-                        <h2 slot="header">TODO:表格标题</h2></Table>
+                        :columns="columns1" :data="data1"></Table>
                 </Col>
                 <Col :sm="24" :md="12">
+                    <h3>不同葡萄酒中水的氧同位素</h3>
                     <Table border stripe highlight-row size="small"
                         :columns="columns2" :data="data2"></Table>
                 </Col>
