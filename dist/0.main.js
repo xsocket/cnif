@@ -1,2 +1,236 @@
-webpackJsonp([0],{29:function(e,t,a){function n(e){a(49)}var o=a(1)(a(36),a(43),n,"data-v-147d71a8",null);e.exports=o.exports},36:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default={data:function(){return{columns1:[{title:"样品原号",key:"name",sortable:!0},{title:"岩石/矿物",key:"type",sortable:!0},{title:"δ<sup>18</sup>O<sub>V-SMOW</sub>(‰)",key:"norm",sortable:!0}],data1:[{name:"甘肃",type:"水样",norm:-11.1},{name:"宁夏",type:"水样",norm:-10.1},{name:"北疆",type:"水样",norm:-10.3},{name:"怀来",type:"水样",norm:-9.5},{name:"烟台",type:"水样",norm:-8.6},{name:"昌黎",type:"水样",norm:-8.4}],columns2:[{title:"样品",key:"name",sortable:!0},{title:"岩石/矿物",key:"type",sortable:!0},{title:"δ<sup>18</sup>O<sub>V-SMOW</sub>(‰)",key:"norm",sortable:!0}],data2:[{name:"纯净水",type:"水样",norm:-8.129},{name:"全汁白葡萄酒",type:"水样",norm:-1.657},{name:"加20%水葡萄酒",type:"水样",norm:-2.936},{name:"加40%水葡萄酒",type:"水样",norm:-4.936},{name:"加50%水葡萄酒",type:"水样",norm:-6.885},{name:"加20%水再补平糖发酵葡萄酒",type:"水样",norm:-4.383},{name:"加40%水再补平糖发酵葡萄酒",type:"水样",norm:-6.8374},{name:"加50%水再补平糖发酵葡萄酒",type:"水样",norm:-7.602}]}},created:function(){console.log("feedback-created.")}}},39:function(e,t,a){t=e.exports=a(2)(),t.push([e.i,".ivu-table-wrapper[data-v-147d71a8]{margin-bottom:30px}",""])},43:function(e,t){e.exports={render:function(){var e=this,t=e.$createElement,a=e._self._c||t;return a("div",[a("Card",[a("div",{slot:"title"},[a("Icon",{attrs:{type:"ios-flask-outline"}}),e._v(" 酿造用水\n        ")],1),e._v(" "),a("Row",{attrs:{gutter:16}},[a("Col",{attrs:{sm:24,md:12}},[a("Table",{attrs:{border:"",stripe:"","highlight-row":"",size:"small",columns:e.columns1,data:e.data1}},[a("h2",{slot:"header"},[e._v("TODO:表格标题")])])],1),e._v(" "),a("Col",{attrs:{sm:24,md:12}},[a("Table",{attrs:{border:"",stripe:"","highlight-row":"",size:"small",columns:e.columns2,data:e.data2}})],1)],1)],1),e._v(" "),a("BackTop")],1)},staticRenderFns:[]}},49:function(e,t,a){var n=a(39);"string"==typeof n&&(n=[[e.i,n,""]]),n.locals&&(e.exports=n.locals);a(9)("ca26dbfe",n,!0)}});
+webpackJsonp([0],{
+
+/***/ 29:
+/***/ (function(module, exports, __webpack_require__) {
+
+function injectStyle (ssrContext) {
+  __webpack_require__(49)
+}
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(36),
+  /* template */
+  __webpack_require__(43),
+  /* styles */
+  injectStyle,
+  /* scopeId */
+  "data-v-147d71a8",
+  /* moduleIdentifier (server only) */
+  null
+)
+
+module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ 36:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data() {
+        return {
+            columns1: [{
+                title: '样品原号',
+                key: 'name',
+                sortable: true
+            }, {
+                title: '岩石/矿物',
+                key: 'type',
+                sortable: true
+            }, {
+                title: 'δ<sup>18</sup>O<sub>V-SMOW</sub>(‰)',
+                key: 'norm',
+                sortable: true
+            }],
+            data1: [{
+                name: '甘肃',
+                type: '水样',
+                norm: -11.1
+            }, {
+                name: '宁夏',
+                type: '水样',
+                norm: -10.1
+            }, {
+                name: '北疆',
+                type: '水样',
+                norm: -10.3
+            }, {
+                name: '怀来',
+                type: '水样',
+                norm: -9.5
+            }, {
+                name: '烟台',
+                type: '水样',
+                norm: -8.6
+            }, {
+                name: '昌黎',
+                type: '水样',
+                norm: -8.4
+            }],
+            columns2: [{
+                title: '样品',
+                key: 'name',
+                sortable: true
+            }, {
+                title: '岩石/矿物',
+                key: 'type',
+                sortable: true
+            }, {
+                title: 'δ<sup>18</sup>O<sub>V-SMOW</sub>(‰)',
+                key: 'norm',
+                sortable: true
+            }],
+            data2: [{
+                name: '纯净水',
+                type: '水样',
+                norm: -8.129
+            }, {
+                name: '全汁白葡萄酒',
+                type: '水样',
+                norm: -1.657
+            }, {
+                name: '加20%水葡萄酒',
+                type: '水样',
+                norm: -2.936
+            }, {
+                name: '加40%水葡萄酒',
+                type: '水样',
+                norm: -4.936
+            }, {
+                name: '加50%水葡萄酒',
+                type: '水样',
+                norm: -6.885
+            }, {
+                name: '加20%水再补平糖发酵葡萄酒',
+                type: '水样',
+                norm: -4.383
+            }, {
+                name: '加40%水再补平糖发酵葡萄酒',
+                type: '水样',
+                norm: -6.8374
+            }, {
+                name: '加50%水再补平糖发酵葡萄酒',
+                type: '水样',
+                norm: -7.602
+            }]
+        };
+    },
+    created() {
+        console.log("feedback-created.");
+    }
+});
+
+/***/ }),
+
+/***/ 39:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)();
+// imports
+
+
+// module
+exports.push([module.i, ".ivu-table-wrapper[data-v-147d71a8]{margin-bottom:30px}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 43:
+/***/ (function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('Card', [_c('div', {
+    slot: "title"
+  }, [_c('Icon', {
+    attrs: {
+      "type": "ios-flask-outline"
+    }
+  }), _vm._v(" 酿造用水\n        ")], 1), _vm._v(" "), _c('Row', {
+    attrs: {
+      "gutter": 16
+    }
+  }, [_c('Col', {
+    attrs: {
+      "sm": 24,
+      "md": 12
+    }
+  }, [_c('Table', {
+    attrs: {
+      "border": "",
+      "stripe": "",
+      "highlight-row": "",
+      "size": "small",
+      "columns": _vm.columns1,
+      "data": _vm.data1
+    }
+  }, [_c('h2', {
+    slot: "header"
+  }, [_vm._v("TODO:表格标题")])])], 1), _vm._v(" "), _c('Col', {
+    attrs: {
+      "sm": 24,
+      "md": 12
+    }
+  }, [_c('Table', {
+    attrs: {
+      "border": "",
+      "stripe": "",
+      "highlight-row": "",
+      "size": "small",
+      "columns": _vm.columns2,
+      "data": _vm.data2
+    }
+  })], 1)], 1)], 1), _vm._v(" "), _c('BackTop')], 1)
+},staticRenderFns: []}
+
+/***/ }),
+
+/***/ 49:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(39);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(9)("ca26dbfe", content, true);
+
+/***/ })
+
+});
 //# sourceMappingURL=0.main.js.map
